@@ -3,8 +3,6 @@
   contents:
     - name: Full Name
       value: Simon Seibt
-    - name: Date of Birth
-      value: 11th February 1991
     - name: Languages
       value: German, English
 

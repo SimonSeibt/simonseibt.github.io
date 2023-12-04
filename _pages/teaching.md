@@ -35,8 +35,8 @@ Courses in chronological order.
 ### Involvement in Supervision of Theses
 Theses in chronological order.
 
-| Type                  | Title          |
-| :-------------------- | :------------- |
+| Type                  | Title             |
+| :-------------------- | :---------------- |
 | Bachelor thesis       | Implementation and evaluation of acquisition and image stitching processes for the generation and visualization of image-based 3D scenes |
 | Master thesis       | Real-time Image-Based 3D-VR-Rendering of Open Environments |
 | Master thesis       | Image warping using Hierarchical Graph-Based Video Segmentation |
@@ -45,6 +45,6 @@ Theses in chronological order.
 | Master thesis       | Neural image-based rendering - current state of the art and prototypical implementation |
 | Bachelor thesis     | Conception and prototypical realization of an AR application for the simplified operation of a machine tool in the production environment |
 | Master thesis       | Conception and development of a user interface for the procedural generation of virtual indoor worlds using the level graph method |
-| :-------------------- | :------------- |
+| :-------------------- | :---------------- |
 
 (Note: The majority of the theses were originally written in German by the students. I have translated the titles of these theses into English for the purpose of this website.)
