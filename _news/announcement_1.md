@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2022-02-14 08:30:00-0400
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+<b>Paper accepted by IEEE Access</b><br> Our paper “Dense Feature Matching Based on Homographic Decomposition” was accepted for publication in the IEEE Access Journal.

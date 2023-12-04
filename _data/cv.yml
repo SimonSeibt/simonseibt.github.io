@@ -2,96 +2,78 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Simon Seibt
     - name: Date of Birth
-      value: 14th March 1879
+      value: 11th February 1991
     - name: Languages
-      value: English, German
+      value: German, English
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Ph.D.
+      institution: University of Würzburg & Nuremberg Institute of Technology
+      year: 2019 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - "Working Title: Image-based Media Production Pipeline"
+        - title: Advisory Committee
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+            - Prof. Dr. Bartosz von Rymon Lipinski (Nuremberg Institute of Technology)
+            - Prof. Dr. Marc Erich Latoschik (University of Würzburg)
+            - Prof. Dr. Sebastian vom Mammen (University of Würzburg)
+        - BayWISS cooperative doctorate
+        - Member (Doctoral Researcher) of the Graduate School Science and Technology (GSST), Würzburg
+
+    - title: M.Sc. in Computer Science
+      institution: Nuremberg Institute of Technology
+      year: 2018
       description:
-        - Description 1.
-        - Description 2.
+        - Focus on (alternative) 3D real-time rendering methods
+        - "Thesis Topic: Generation and Visualization of Interactive Image-based 3D Scenes Using Feature-based Morphing"
+
+    - title: B.Sc. in Computer Science
+      institution: Nuremberg Institute of Technology
+      year: 2016
+      description:
+      - 'External thesis in the joint research project SMARTEST(*) (Consortium: Areva GmbH, University of Erlangen-Nuremberg, University of Magdeburg, Magdeburg University of Applied Sciences)'
+      - "Thesis Topic: Conception and Prototypical Realization of a WebGL Application for Ensuring Physical Security in an I&C Cybersecurity Model"
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Assistant
+      institution: Game Tech Lab, Nuremberg Institute of Technology
+      year: 2018 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - title: Research Areas
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+            - Image-based Computer Graphics (Image-based Modeling and Rendering - IBM/IBR)
+            - Computer Vision
+        - Collaboration on research proposals
+        - Involvement in teaching und supervision
+        - Participation in academic self-administration
+        - "Elected member of the Faculty Council (as a representative of academic staff) for the period: 2019-2023 (two terms)"
+
+    - title: Student Assistant
+      institution: Game Tech Lab, Nuremberg Institute of Technology
+      year: 2017 - 2018
       description:
-        - Description 1.
-        - Description 2.
+        - Software development 
+        - Assistance in the scientific projects of the lab (image-based computer graphics, applications from game engineering and game design)
+        - Robot programming and choreography development for university events
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Working Student in the joint research project SMARTEST(*)
+      institution: Areva GmbH
+      year: 2016 - 2017
       description:
+        - Further development and optimization of the prototype of the bachelor thesis 
+        - Web tool development for capturing ISO/IEC security requirements for a I&C cybersecurity model
+        - Supervision of interns and support for Ph.D. candidates in scientific activities
+        - '(*) Overall objective of SMARTEST: Evaluation of methods for testing information security in critical I&C systems using smart test case generation'
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - title: Working Student
+      institution: Areva GmbH
+      year: 2016 - 2012
+      description:
+        - Front-end & back-end development of desktop apps
+        - Database development

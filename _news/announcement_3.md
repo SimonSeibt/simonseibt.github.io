@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2023-08-11 14:00:00-0400
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+<b>Paper accepted to GCPR</b><br> Our paper “Parallax-aware Image Stitching based on Homographic Decomposition" was accepted for publication at the German Conference on Pattern Recognition (GCPR) 2023.
