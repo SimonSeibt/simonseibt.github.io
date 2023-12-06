@@ -14,7 +14,9 @@ The Federal Ministry of Education and Research (BMBF) is organizing the annual S
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        <a href="https://www.linkedin.com/posts/innomatik-ag_wecc-digitalisierung-mittelstandskonferenz2023-activity-7131189252444319744--kcg">{% include figure.html path="assets/img/SME-Innomatik-1.jpg" width="500" zoomable=false %}</a>
+        <div class="text-center">
+            <a href="https://www.linkedin.com/posts/innomatik-ag_wecc-digitalisierung-mittelstandskonferenz2023-activity-7131189252444319744--kcg">{% include figure.html path="assets/img/SME-Innomatik-1.jpg" width="500" zoomable=false %}</a>
+        </div>
     </div>
 </div>
 
@@ -25,6 +27,8 @@ from our partner Innomatik AG
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        <a href="https://www.linkedin.com/posts/innomatik-ag_mittelstandskonferenz-digitalisierung-innovation-activity-7133384822537760771--dXi">{% include figure.html path="assets/img/SME-Innomatik-2.jpg" width="500" zoomable=false %}</a>
+        <div class="text-center">
+            <a href="https://www.linkedin.com/posts/innomatik-ag_mittelstandskonferenz-digitalisierung-innovation-activity-7133384822537760771--dXi">{% include figure.html path="assets/img/SME-Innomatik-2.jpg" width="500" zoomable=false %}</a>
+        </div>
     </div>
 </div>
