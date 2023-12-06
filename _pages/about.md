@@ -6,7 +6,7 @@ subtitle: Research Assistant | Ph.D. candidate
 
 profile:
   align: right
-  image: profile_me.jpg
+  image: profile_me_rounded_depth.png
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>simon.seibt@ieee.org</p><br/><br/>

@@ -8,6 +8,7 @@ categories:
 giscus_comments: false
 related_posts: false
 related_publications: 
+thumbnail: assets/img/SME23_banner.png
 ---
 The Federal Ministry of Education and Research (BMBF) is organizing the annual SME-Conference (German: Mittelstandskonferenz) in Berlin on November 21 and 22, 2023, and our project partner ([Innomatik AG](https://www.innomatik.com/)) will present the first results of our project this year!
 
@@ -19,7 +20,8 @@ The Federal Ministry of Education and Research (BMBF) is organizing the annual S
 
 ***
 
-### Post-conference update (Dec 04, 2023)
+### **Post-conference update (Dec 04, 2023)**
+from our partner Innomatik AG
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">

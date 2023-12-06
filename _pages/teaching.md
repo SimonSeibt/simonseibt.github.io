@@ -9,7 +9,7 @@ nav_order: 5
 
 ***
 
-### Previous Courses
+### **Previous Courses**
 Courses in chronological order.
 
 | Semester              | Year           | Course                     | Type (weekly semester hours)          |
@@ -27,12 +27,14 @@ Courses in chronological order.
 | Summer semester       | 2024           | Object-oriented programming| Lecture & exercises (4 SWS)           |
 | :-------------------- | :------------- | :------------------------- |:------------------------------------  |
 
-("SWS" = German: Semesterwochenstunden)
+<sup>("SWS" = German: Semesterwochenstunden)</sup>
+
+The courses were held in the following degree programs: Computer Science, Computer Science for Media and Applied Mathematics.
 <br/><br/>
 
 ***
 
-### Involvement in Supervision of Theses
+### **Involvement in Supervision of Theses**
 Theses in chronological order.
 
 | Type                  | Title             |
@@ -47,4 +49,4 @@ Theses in chronological order.
 | Master thesis       | Conception and development of a user interface for the procedural generation of virtual indoor worlds using the level graph method |
 | :-------------------- | :---------------- |
 
-(Note: The majority of the theses were originally written in German by the students. I have translated the titles of these theses into English for the purpose of this website.)
+<sup>(Note: The majority of the theses were originally written in German by the students. I have translated the titles of these theses into English for the purpose of this website.)</sup>
