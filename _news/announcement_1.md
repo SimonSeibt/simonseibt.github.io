@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-<b>Paper accepted by IEEE Access</b><br> Our paper “Dense Feature Matching Based on Homographic Decomposition” was accepted for publication in the IEEE Access Journal.
+<font color="#00369f"><b>Paper accepted by IEEE Access</b></font><br><font color="#000000">Our paper “Dense Feature Matching Based on Homographic Decomposition” was accepted for publication in the IEEE Access Journal.</font>

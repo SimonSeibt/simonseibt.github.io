@@ -5,16 +5,16 @@ permalink: /
 subtitle: Research Assistant | Ph.D. candidate
 
 profile:
-  align: right
+  align: left
   image: profile_me_rounded_depth.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>simon.seibt@ieee.org</p><br/><br/>
-    <p><font size="3em">Visitor address:</font></p>
-    <p><font size="3em">Faculty of Computer Science</font></p>
-    <p><font size="3em">Hohfederstrasse 40, </font></p>
-    <p><font size="3em">Room: HQ.212 </font></p>
-    <p><font size="3em">Nuremberg, Germany</font></p>
+    <p>📧 simon.seibt@ieee.org</p><br/><br/>
+    <p><font size="2.5em">Visitor address:</font></p><br/>
+    <p><font size="2.5em">Faculty of Computer Science</font></p><br/>
+    <p><font size="2.5em">Hohfederstrasse 40, </font></p>
+    <p><font size="2.5em">Room: HQ.212 </font></p><br/>
+    <p><font size="2.5em">Nuremberg, Germany</font></p>
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts

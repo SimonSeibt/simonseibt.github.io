@@ -10,7 +10,7 @@ layout: default
           </h1>
           <p class="desc">{{ page.subtitle }}</p>
         </header>
-
+        <hr>
         <article>
           {% if page.profile -%}
           <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
@@ -31,7 +31,9 @@ layout: default
             {% endif -%}
             {%- if page.profile.more_info %}
             <div class="more-info">
+              <center>
               {{ page.profile.more_info }}
+            </center>
             </div>
             {%- endif %}
           </div>
@@ -40,16 +42,19 @@ layout: default
           <div class="clearfix">
             {{ content }}
           </div>
+          <hr>
 
           <!-- News -->
           {% if page.news and site.announcements.enabled -%}
-            <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">news</a></h2>
+            <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">News</a></h2>
             {%- include news.html limit=true %}
-          {%- endif %} 
+          {%- endif %}
+          
+          <hr>
 
           <!-- Latest posts -->
           {% if page.latest_posts -%}
-            <h2><a href="{{ '/blog/' | relative_url }}" style="color: inherit;">latest posts</a></h2>
+            <h2><a href="{{ '/blog/' | relative_url }}" style="color: inherit;">Latest Posts</a></h2>
             {%- include latest_posts.html %}
           {%- endif %}
 
