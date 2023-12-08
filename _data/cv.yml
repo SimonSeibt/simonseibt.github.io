@@ -64,10 +64,10 @@
       institution: Areva GmbH
       year: 2016 - 2017
       description:
-        - Further development and optimization of the prototype of the bachelor thesis 
+        - Further development and optimization of the WebGL prototype of the bachelor thesis 
         - Web tool development for capturing ISO/IEC security requirements for a I&C cybersecurity model
         - Supervision of interns and support for Ph.D. candidates in scientific activities
-        - '(*) Overall objective of SMARTEST: Evaluation of methods for testing information security in critical I&C systems using smart test case generation'
+        - '(*) Overall objective of SMARTEST: Evaluation of methods for testing information security in critical I&C systems using smart test case generation (Subproject: Simulation environment and model-based test approaches)'
 
     - title: Working Student
       institution: Areva GmbH
