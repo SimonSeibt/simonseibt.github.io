@@ -7,7 +7,7 @@ first_name: Simon
 middle_name:
 last_name: Seibt
 email: simon.seibt@ieee.org
-description: # the ">" symbol means to ignore newlines until "footer_text:"
+description: Personal Website of Simon Seibt. Research Assistant at Nuremberg Institute of Technology (Technische Hochschule Nürnberg). # the ">" symbol means to ignore newlines until "footer_text:"
 
 footer_text: >
 
