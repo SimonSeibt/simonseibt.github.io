@@ -31,17 +31,12 @@ table, td, th {
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         <div class="text-right">
-            {% include figure.html path="assets/img/multimorphing/ibr_results1.jpg" class="img-fluid rounded z-depth-1"  width="200" zoomable=true %}
-        </div>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <div class="text-center">
-            {% include figure.html path="assets/img/multimorphing/ibr_results2.jpg" class="img-fluid rounded z-depth-1"  width="200" zoomable=true %}
+            {% include figure.html path="assets/img/multimorphing/ibr_results1.jpg" class="img-fluid rounded z-depth-1"  width="400" zoomable=true %}
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
         <div class="text-left">
-            {% include figure.html path="assets/img/multimorphing/ibr_results3.jpg" class="img-fluid rounded z-depth-1"  width="200" zoomable=true %}
+            {% include figure.html path="assets/img/multimorphing/ibr_results2.jpg" class="img-fluid rounded z-depth-1"  width="400" zoomable=true %}
         </div>
     </div>
 </div>
@@ -49,16 +44,24 @@ table, td, th {
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         <div class="text-right">
-            {% include figure.html path="assets/img/multimorphing/ibr_results4.jpg" class="img-fluid rounded z-depth-1"  width="200" zoomable=true %}
+            {% include figure.html path="assets/img/multimorphing/ibr_results3.jpg" class="img-fluid rounded z-depth-1" width="400" zoomable=true %}
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
         <div class="text-left">
-            {% include figure.html path="assets/img/multimorphing/ibr_results5.jpg" class="img-fluid rounded z-depth-1"  width="200" zoomable=true %}
+            {% include figure.html path="assets/img/multimorphing/ibr_results4.jpg" class="img-fluid rounded z-depth-1" width="400" zoomable=true %}
         </div>
     </div>
 </div>
-<center><p>Multi-morphing rendering results<br>(In the first row are the following real scenes: "Farmland," "Nature Walk," and "Living Room".<br>In the second row are the following synthetic scenes: "Cave" and "Bistro".)</p></center>
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        <div class="text-center">
+            {% include figure.html path="assets/img/multimorphing/ibr_results5.jpg" class="img-fluid rounded z-depth-1" width="400" zoomable=true %}
+        </div>
+    </div>
+</div>
+
+<center><p>Multi-morphing rendering results for the following image datasetss:<br>"Farmland" (real scene), "Nature Walk" (real scene), "Living Room" (real scene), "Cave" (synthetic scene) and "Bistro" (synthetic scene).</p></center>
 <br>
 <center><h3><b>Abstract</b></h3></center>
 <p style="text-align: justify;">The demand for interactive photorealistic 3D environments has increased in recent years and in various fields such as architecture, engineering and entertainment. Nevertheless, achieving a balance between quality and performance for high-performance 3D applications and Virtual Reality (VR) remains a challenge. This paper addresses this issue by revisiting and extending view interpolation for image-based rendering, enabling the exploration of spacious open environments in 3D and VR. Therefore, we introduce multi-morphing, a novel rendering method based on a spatial data structure of 2D image patches, called the image graph. With this approach, novel views can be rendered with up to six degrees of freedom using only a sparse set of views. The rendering process does not require 3D reconstruction of geometry, nor per-pixel depth information: All relevant data for output is extracted from local morphing cells of the image graph. Detection of parallax image regions during preprocessing reduces rendering artifacts by extrapolating image patches from adjacent cells in real-time. Additionally, a GPU-based solution to resolve exposure inconsistencies within a dataset is presented, enabling seamless transitions of brightness when moving between areas with varying light intensities. Experiments on multiple real-world and synthetic scenes demonstrate that the presented method achieves high ``VR-compatible'' frame rates, even on mid-range and legacy hardware, respectively.</p>
@@ -96,7 +99,7 @@ table, td, th {
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         <div class="text-center">
-            <video style="margin: 0 auto" id="page-player_html5_api" class="vjs-tech" preload="auto" data-setup="{}" tabindex="-1" muted="muted" src="https://faubox.rrze.uni-erlangen.de/dl/fiLWaSiskiGU5fykMctrdK/multimorphing/multimorphing_demo.mp4" style="max-width: 720px;" controls="controls"></video>
+            <video style="margin: 0 auto" id="page-player_html5_api" class="vjs-tech" preload="auto" data-setup="{}" tabindex="-1" muted="muted" src="https://faubox.rrze.uni-erlangen.de/dl/fiLWaSiskiGU5fykMctrdK/multimorphing/multimorphing_demo.mp4" style="max-width:90%;" controls="controls"></video>
         </div>
     </div>
 </div>
