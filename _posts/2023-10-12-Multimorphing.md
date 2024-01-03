@@ -9,6 +9,10 @@ giscus_comments: false
 related_posts: false
 related_publications: 
 thumbnail: assets/img/multimorphing/cgi2023.jpg
+change_title: true
+header_title: Multidimensional Image Morphing - Fast Image-based Rendering of Open 3D and VR Environments
+change_keywords: true
+paper_keywords: ICIP, Computer Graphics, 3D Real Time Rendering, Image Based Rendering, Image Morphing, Virtual Realtiy, Research
 ---
 <hr>
 <style>
@@ -161,7 +165,7 @@ table, td, th {
 References
 
 | :---| :------------------------------------------------------------------------------- | 
-| [1] | Chaurasia G, Duchene S, Sorkine-Hornung O, et al. Depth synthesis and local warps for plausible image-based navigation. ACM Transactions on Graphics. 2013 June;32:1–12.|
+| [1] | Chaurasia G, Duchene S, Sorkine-Hornung O, Drettakis G. Depth synthesis and local warps for plausible image-based navigation. ACM Transactions on Graphics. 2013 June;32:1–12.|
 | [2] | Penner E, Zhang L. Soft 3D reconstruction for view synthesis. ACM Transactions on Graphics. 2017 November;36:1–11.|
-| [3] | Müller T, Evans A, Schied C, et al. Instant neural graphics primitives with a multiresolution hash encoding. ACM Transactions on Graphics. 2022 July;41:1–15.|
-| [4] | Tancik M, Weber E, Ng E, et al. Nerfstudio: A Modular Framework for Neural Radiance Field Development. ACM Transactions on Graphics. 2021;40:1–18.|
+| [3] | Müller T, Evans A, Schied C, Keller A. Instant neural graphics primitives with a multiresolution hash encoding. ACM Transactions on Graphics. 2022 July;41:1–15.|
+| [4] | Tancik M, Weber E,Ng E, Li R, Yi B, Wang T, Kristoffersen A, Austin J, Salahi K, Ahuja A, Mcallister D, Kerr J, Kanazawa A. Nerfstudio: A Modular Framework for Neural Radiance Field Development. ACM Transactions on Graphics. 2021;40:1–18.|
