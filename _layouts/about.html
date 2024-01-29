@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-
 <!-- about.html -->
       <div class="post">
         <header class="post-header">
@@ -43,20 +42,19 @@ layout: default
             {{ content }}
           </div>
           <hr>
-
-          <!-- News -->
-          {% if page.news and site.announcements.enabled -%}
-            <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">News</a></h2>
-            {%- include news.html limit=true %}
-          {%- endif %}
           
+          <!-- News -->
+            {% if page.news and site.announcements.enabled -%}
+              <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">News</a></h2>
+              {%- include news.html limit=true %}
+            {%- endif %}
           <hr>
 
           <!-- Latest posts -->
-          {% if page.latest_posts -%}
-            <h2><a href="{{ '/blog/' | relative_url }}" style="color: inherit;">Latest Posts</a></h2>
-            {%- include latest_posts.html %}
-          {%- endif %}
+            {% if page.latest_posts -%}
+              <h2><a href="{{ '/blog/' | relative_url }}" style="color: inherit;">Latest Posts</a></h2>
+              {%- include latest_posts.html %}
+            {%- endif %}
 
           <!-- Selected papers -->
           {% if page.selected_papers -%}
