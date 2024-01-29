@@ -29,7 +29,7 @@ table, td, th {
 <center><h6>Simon Seibt<sup>1</sup>, Bastian Kuth<sup>2</sup>, Bartosz von Rymon Lipinski<sup>1</sup>, Thomas Chang<sup>1</sup> and Marc Erich Latoschik<sup>3</sup></h6></center>
 <br>
 <center><sup>1</sup> Game Tech Lab, Nuremberg Institute of Technology<br>
-<sup>2</sup> Department of Computer Science, University of Applied Sciences<br>
+<sup>2</sup> Department of Computer Science, Coburg University of Applied Sciences and Arts<br>
 <sup>3</sup> Human-Computer Interaction Group, University of Wuerzburg</center>
 <br>
 <div class="row mt-3">
