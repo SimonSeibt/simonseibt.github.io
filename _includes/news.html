@@ -4,7 +4,7 @@
       overflow-x: hidden;
       overflow-y: auto;
   }
-  tr, th, td{
+  .news-table{
     background-color: #F2F2F2;
     border-top: 6px solid #FFFFFF;
     border-bottom: 6px solid #FFFFFF;
@@ -24,7 +24,7 @@
               {% assign news_limit = news_size %}
               {% endif %}
               {% for item in news limit: news_limit %}
-                <tr>
+                <tr class="news-table">
                   <th scope="row" style="width: 20%">{{ item.date | date: "%b %-d, %Y" }}</th>
                   <td>
                     {% if item.inline -%}
