@@ -46,14 +46,14 @@ layout: default
           
           <!-- News -->
             {% if page.news and site.announcements.enabled -%}
-              <h2><a href="{{ '/news/' | relative_url }}" style="background-color: #F2F2F2; color: inherit;">News</a></h2>
+              <b><h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">News</a></h2></b>
               {%- include news.html limit=true %}
             {%- endif %}
           <hr>
 
           <!-- Latest posts -->
             {% if page.latest_posts -%}
-              <h2><a href="{{ '/blog/' | relative_url }}" style="background-color: #F2F2F2; color: inherit;">Latest Posts</a></h2>
+            <b><h2><a href="{{ '/blog/' | relative_url }}" style="color: inherit;">Latest Posts</a></h2></b>
               {%- include latest_posts.html %}
             {%- endif %}
 
