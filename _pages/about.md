@@ -7,10 +7,11 @@ subtitle: Research Assistant | Ph.D. candidate
 profile:
   align: left
   image: profile_me.jpg #profile_me_rounded_depth_white_background.png
-  image_circular: false # crops the image to make it circular
+  image_circular: false # crops the image to make it circular <p>📧 simon.seibt@ieee.org</p><br/><br/>
   more_info: >
-    <p>📧 simon.seibt@ieee.org</p><br/><br/>
-    <p><font size="2.5em">Visitor address:</font></p><br/>
+    <p>Research Assistant</p><br/>
+    <p>Ph.D. candidate</p><br/><br/>
+    <p><font size="2.5em">Nuremberg Institute of Technology</font></p><br/>
     <p><font size="2.5em">Faculty of Computer Science</font></p><br/>
     <p><font size="2.5em">Hohfederstrasse 40, </font></p>
     <p><font size="2.5em">Room: HQ.212 </font></p><br/>
