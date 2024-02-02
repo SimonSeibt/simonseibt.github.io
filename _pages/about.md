@@ -6,7 +6,7 @@ subtitle: Research Assistant | Ph.D. candidate
 
 profile:
   align: left
-  image: profile_me_color.jpg #profile_me_rounded_depth_white_background.png
+  image: profile_me_rounded.jpg #profile_me_rounded_depth_white_background.png
   image_circular: false # crops the image to make it circular <p>📧 simon.seibt@ieee.org</p><br/><br/>
   more_info: >
     <p>Research Assistant</p><br/>
