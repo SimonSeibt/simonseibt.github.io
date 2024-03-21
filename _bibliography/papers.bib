@@ -100,6 +100,18 @@ blog = {/blog/2023/Multimorphing/},
 code = {Accepted and presented},
 }
 
+@inproceedings{Seibt2024DGSI,
+author = {Seibt, Simon and Chang, Thomas and Von Rymon Lipinski, Bartosz and Latoschik, Marc Erich},
+title = {Dense 3D Gaussian Splatting Initialization for Sparse Image Data},
+booktitle={Eurographics 2024 - Posters}, 
+year={2024},
+abstract = {This paper presents advancements in novel-view synthesis with 3D Gaussian Splatting (3DGS) using a dense and accurate SfM point cloud initialization approach. We address the challenge of achieving photorealistic renderings from sparse image data, where basic 3DGS training may result in suboptimal convergence, thus leading to visual artifacts. The proposed method enhances precision and density of initially reconstructed point clouds by refining 3D positions and extrapolating additional points, even for difficult image regions, e.g.~with repeating patterns and suboptimal visual coverage. Our contributions focus on improving ``Dense Feature Matching for Structure-from-Motion'' (DFM4SfM) based on a homographic decomposition of the image space to support 3DGS training: First, a grid-based feature detection method is introduced for DFM4SfM to ensure a well-distributed 3D Gaussian initialization uniformly over all depth planes. Second, the SfM feature matching is complemented by a geometric plausibility check, priming the homography estimation and thereby improving the initial placement of 3D Gaussians. Experimental results on the NeRF-LLFF dataset demonstrate that this approach achieves superior qualitative and quantitative results, even for fewer views, and the potential for a significantly accelerated 3DGS training with faster convergence.},
+preview = {EG2024_DGSI.jpg},
+slides = {Available soon},
+blog = {},
+code = {Accepted},
+}
+
 @inproceedings{Chang2024HHTS,
 author = {Chang, Thomas and Seibt, Simon and Von Rymon Lipinski, Bartosz},
 title = {Hierarchical Histogram Threshold Segmentation - Auto-terminating High-detail Oversegmentation},
