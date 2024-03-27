@@ -9,7 +9,7 @@
 - title: Education
   type: time_table
   contents:
-    - title: Ph.D.
+    - title: Ph.D. in Computer Science for Media
       institution: University of Würzburg & Nuremberg Institute of Technology
       year: 2019 - Present
       description:
@@ -45,8 +45,11 @@
       description:
         - title: Research Areas
           contents:
-            - Image-based Computer Graphics (Image-based Modeling and Rendering - IBM/IBR)
-            - Computer Vision
+            - Computer Graphics (Image-based Modeling and Rendering - IBM/IBR)
+            - Computer Vision for Computer Graphics
+            - Virtual Reality
+            - Game Content Generation
+            - Image Processing
         - Collaboration on research proposals
         - Involvement in teaching and supervision
         - Participation in academic self-administration
