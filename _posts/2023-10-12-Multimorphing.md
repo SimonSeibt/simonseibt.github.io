@@ -74,7 +74,7 @@ table, td, th {
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         <div class="text-center">
-            {% include figure.html path="assets/img/multimorphing/paper_cover.png" width="310" zoomable=false %}
+            <a href="https://faubox.rrze.uni-erlangen.de/getlink/fiTpGNwvsuK4e1RnPRkv9D/multimorphing_preprint.pdf">{% include figure.html path="assets/img/multimorphing/paper_cover_2.png" width="310" zoomable=false %}</a>
         </div>
     </div>
 </div>
