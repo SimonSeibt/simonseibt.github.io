@@ -36,7 +36,7 @@ Courses in reversed chronological order.
             </div>
         </div>
         </td>
-      <td>Lecture & exercises (4 SWS)</td>
+      <td>Lectures & exercises (4 SWS)</td>
     </tr>
     <tr>
       <td>Winter<br>semester</td>
@@ -66,7 +66,7 @@ Courses in reversed chronological order.
             </div>
         </div>
         </td>
-      <td>Exercises & substitute lecture (4 SWS)</td>
+      <td>Lectures & exercises (4 SWS)</td>
     </tr>
     <tr>
       <td>Winter<br>semester</td>
