@@ -45,12 +45,13 @@
       description:
         - title: Research Areas
           contents:
-            - Computer Graphics (Image-based Modeling and Rendering - IBM/IBR)
+            - Computer Graphics (Image-based Modeling and Rendering)
             - Computer Vision for Computer Graphics
-            - Virtual Reality
-            - Game Content Generation
+            - Virtual and Augmented Reality
             - Image Processing
-        - Collaboration on research proposals
+            - Machine Learning
+            - Game Content Generation
+        - Collaboration on research proposals and project management
         - Involvement in teaching and supervision
         - Participation in academic self-administration
         - "Elected member of the Faculty Council (as a representative of academic staff) for the period: 2019-2023 (two terms)"
