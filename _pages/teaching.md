@@ -24,6 +24,21 @@ Courses in reversed chronological order.
   </thead>
   <tbody>
     <tr>
+      <td>Winter<br>semester</td>
+      <td>2024/2025</td>
+      <td>
+        <div class="row">
+            <div class="col-8">
+            Software<br>engineering
+            </div>
+            <div class="col">
+            <img src="/assets/img/teaching/se.png" width="40px">
+            </div>
+        </div>
+        </td>
+      <td>Exercises & internship (4 SWS)</td>
+    </tr>
+    <tr>
       <td>Summer<br>semester</td>
       <td>2024</td>
       <td>
