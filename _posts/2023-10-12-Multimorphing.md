@@ -74,7 +74,7 @@ table, td, th {
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         <div class="text-center">
-            <a href="https://faubox.rrze.uni-erlangen.de/getlink/fiTpGNwvsuK4e1RnPRkv9D/multimorphing_preprint.pdf">{% include figure.html path="assets/img/multimorphing/paper_cover_2.png" width="310" zoomable=false %}</a>
+            <a href="https://ssrn.com/abstract=5006896">{% include figure.html path="assets/img/multimorphing/paper_cover_2.png" width="310" zoomable=false %}</a>
         </div>
     </div>
 </div>
@@ -159,7 +159,13 @@ table, td, th {
 <center>Visual comparisons of novel view generation for scenes: Farmland, Nature Walk, Livingroom and Cave</center>
 <br>
 <h3><b>BibTeX</b></h3>
->##### Coming soon!
+>@article{Seibt2023Multimorphing,<br>
+>  author = {Seibt, Simon and Kuth, Bastian and Von Rymon Lipinski, Bartosz and Chang, Thomas and Latoschik, Marc Erich},<br>
+>  title = {Multidimensional Image Morphing - Fast Image-based Rendering of Open 3D and VR Environments},<br>
+>  journal = {Virtual Reality & Intelligent Hardware (Proceedings of Computer Graphics International 2023)},<br>
+>  note = {in press},<br>
+>  url = {https://ssrn.com/abstract=5006896},<br>
+>}
 {: .block-tip }
 <br>
 References
