@@ -6,7 +6,8 @@ subtitle: Senior Solution Architect
 
 profile:
   align: left
-  image: simon_seibt.png
+  image: me.png
+  hover_image: me_glasses.jpg
   image_circular: false # crops the image to make it circular <p>📧 simon.seibt@ieee.org</p><br/><br/>
   more_info: >
 
@@ -18,7 +19,7 @@ social: true  # includes social icons at the bottom of the page
 
 I am a Senior Solution Architect at the three stripes, connecting research approaches with scalable industry applications. Currently, I am combining <span style="white-space: nowrap;">AI image generation</span>, advanced image processing, 3D asset pipelines, and cloud architecture to turn cutting-edge tech into scalable tools for <span style="white-space: nowrap;">visual content creation</span>.
 
-Previously, I was a Research Assistant in the [Game Tech Lab](https://www.th-nuernberg.de/fakultaeten/in/forschung/game-tech-labor/) at the Nuremberg Institute of Technology. I earned my Ph.D. in Visual Computing from the University of Würzburg through a cooperative doctorate with the [Chair of Human-Computer Interaction](https://hci.uni-wuerzburg.de/). I then did a short Postdoc at a [Technology Transfer Center for Industry 4.0](https://www.hs-kempten.de/forschung/forschungsinstitute/institut-fuer-produktion-und-informatik-ipi) (University of Applied Sciences Kempten), where I provided technical leadership for the Industrial Metaverse research group.
+Previously, I was a Research Assistant in the [Game Tech Lab](https://www.th-nuernberg.de/fakultaeten/in/forschung/game-tech-labor/) at the Nuremberg Institute of Technology. I earned my <span style="white-space: nowrap;">doctoral degree (Dr. rer. nat.)</span> in <span style="white-space: nowrap;">Visual Computing</span> from the University of Würzburg in 2025 through a cooperative doctorate with the [Chair of Human-Computer Interaction](https://hci.uni-wuerzburg.de/). I then did a short Postdoc at a [Technology Transfer Center for Industry 4.0](https://www.hs-kempten.de/forschung/forschungsinstitute/institut-fuer-produktion-und-informatik-ipi) (University of Applied Sciences Kempten), where I provided technical leadership for the Industrial Metaverse research group.
 
 My previous research and development orbited around computer graphics, computer vision, and machine learning, with a particular focus on image-based modeling and rendering, 3D/VR scene representations, and photorealistic real-time visualization. Across academia and industry, my passion lies in translating advances in visual computing into robust workflows and cloud-based solutions.
 

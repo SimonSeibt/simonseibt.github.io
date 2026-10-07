@@ -103,7 +103,7 @@ table, td, th {
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         <div class="text-center">
-            <video style="margin: 0 auto" id="page-player_html5_api" class="vjs-tech" preload="auto" data-setup="{}" tabindex="-1" muted="muted" src="https://faubox.rrze.uni-erlangen.de/dl/fiLWaSiskiGU5fykMctrdK/multimorphing/multimorphing_demo.mp4" style="max-width:90%;" controls="controls"></video>
+            <iframe src="https://drive.google.com/file/d/1LG285RLLhN38rdHwgO7iRVRge7rSgRm-/preview" title="Multimorphing demo" width="640" height="360" sandbox="allow-scripts allow-same-origin" allowfullscreen style="border:0; width:100%; max-width:640px; height:auto; aspect-ratio:16 / 9;"></iframe>
         </div>
     </div>
 </div>

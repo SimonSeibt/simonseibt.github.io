@@ -22,11 +22,18 @@ layout: default
                 {%- assign profile_image_class = "" -%}
               {% endif %}
 
+              {% if page.profile.hover_image %}
+              <div class="profile-image-swap">
+                <img class="profile-image-default" src="{{ profile_image_path | relative_url }}" alt="Simon Seibt">
+                <img class="profile-image-hover" src="{{ page.profile.hover_image | prepend: 'assets/img/' | relative_url }}" alt="" aria-hidden="true">
+              </div>
+              {% else %}
               {% include figure.html
               path=profile_image_path
               class=profile_image_class
               alt=page.profile.image
               cache_bust=true -%}
+              {% endif %}
             {% endif -%}
             {%- if page.profile.more_info %}
             <div class="more-info">

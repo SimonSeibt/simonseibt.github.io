@@ -51,6 +51,26 @@ blockquote {
   margin-right: auto;
 }
 
+.profile-image-swap {
+  position: relative;
+  max-width: 230px;
+  margin: 0 auto 1rem;
+}
+
+.profile-image-swap .profile-image-hover {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+}
+
+@media (hover: hover) {
+  .profile-image-swap:hover .profile-image-hover {
+    opacity: 1;
+  }
+}
+
 /* Keep the biography beside the floated profile for its full height. */
 @media (min-width: 576px) {
   .profile + .clearfix {
@@ -67,6 +87,13 @@ blockquote {
 .publications .preview img {
   max-width: 100%;
   height: auto;
+}
+
+@media (max-width: 575px) {
+  .publications .preview img {
+    width: 50%;
+    max-width: 50%;
+  }
 }
 
 /* News and recent posts share a compact, accessible card layout. */
