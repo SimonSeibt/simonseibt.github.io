@@ -16,7 +16,7 @@ Nuremberg Metropolitan Region, Germany<br>
 
 **Kontakt:**
 
-Email: simon.seibt at ieee.org<br>
+Email: simon.seibt [at] ieee.org<br>
 
 **Haftungshinweis:**
 

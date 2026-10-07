@@ -24,9 +24,26 @@ layout: default
 
               {% if page.profile.hover_image %}
               <div class="profile-image-swap">
-                <img class="profile-image-default" src="{{ profile_image_path | relative_url }}" alt="Simon Seibt">
-                <img class="profile-image-hover" src="{{ page.profile.hover_image | prepend: 'assets/img/' | relative_url }}" alt="" aria-hidden="true">
+                <img class="profile-image-default" src="{{ profile_image_path | relative_url }}" alt="Simon Seibt" draggable="false">
+                <img class="profile-image-hover" src="{{ page.profile.hover_image | prepend: 'assets/img/' | relative_url }}" alt="" aria-hidden="true" draggable="false">
               </div>
+              <script>
+                (() => {
+                  const portrait = document.querySelector('.profile-image-swap');
+                  const release = () => portrait.classList.remove('is-held');
+                  portrait.addEventListener('pointerdown', (event) => {
+                    if (event.pointerType === 'mouse') return;
+                    portrait.setPointerCapture(event.pointerId);
+                    portrait.classList.add('is-held');
+                  });
+                  portrait.addEventListener('pointerup', release);
+                  portrait.addEventListener('pointercancel', release);
+                  portrait.addEventListener('lostpointercapture', release);
+                  portrait.addEventListener('contextmenu', (event) => event.preventDefault());
+                  window.addEventListener('blur', release);
+                  document.addEventListener('visibilitychange', release);
+                })();
+              </script>
               {% else %}
               {% include figure.html
               path=profile_image_path
