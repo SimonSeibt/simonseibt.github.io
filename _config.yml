@@ -3,11 +3,11 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: Dr. Simon
+first_name: Simon
 middle_name:
 last_name: Seibt
 email: simon.seibt@ieee.org
-description: Personal Website of Dr. Simon Seibt. Senior Solution Architect at adidas. Metropolregion Nuremberg, Germany. # the ">" symbol means to ignore newlines until "footer_text:"
+description: Personal Website of Simon Seibt. # the ">" symbol means to ignore newlines until "footer_text:"
 
 footer_text: >
 
