@@ -1,1 +1,0 @@
-Personal Website of Simon Seibt. Research Assistant at the Nuremberg Institute of Technology.
