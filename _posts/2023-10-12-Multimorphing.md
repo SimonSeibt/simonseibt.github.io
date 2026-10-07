@@ -74,7 +74,7 @@ table, td, th {
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         <div class="text-center">
-            <a href="https://ssrn.com/abstract=5006896">{% include figure.html path="assets/img/multimorphing/paper_cover_2.png" width="310" zoomable=false %}</a>
+            <a href="https://www.sciencedirect.com/science/article/pii/S2096579623000384">{% include figure.html path="assets/img/multimorphing/paper-cover-published.png" width="310" zoomable=false %}</a>
         </div>
     </div>
 </div>
@@ -162,9 +162,8 @@ table, td, th {
 >@article{Seibt2023Multimorphing,<br>
 >  author = {Seibt, Simon and Kuth, Bastian and Von Rymon Lipinski, Bartosz and Chang, Thomas and Latoschik, Marc Erich},<br>
 >  title = {Multidimensional Image Morphing - Fast Image-based Rendering of Open 3D and VR Environments},<br>
->  journal = {Virtual Reality & Intelligent Hardware (Proceedings of Computer Graphics International 2023)},<br>
->  note = {in press},<br>
->  url = {https://ssrn.com/abstract=5006896},<br>
+>  journal = {Virtual Reality & Intelligent Hardware (Proceedings of Computer Graphics International (CGI) 2023)},<br>
+>  year = {2025},<br>
 >}
 {: .block-tip }
 <br>

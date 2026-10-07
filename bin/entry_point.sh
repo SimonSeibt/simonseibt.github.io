@@ -34,7 +34,8 @@ start_jekyll() {
     manage_gemfile_lock
     ensure_bundle_deps
     mkdir -p "$DOCKER_DESTINATION"
-    bundle exec jekyll serve --watch --port=8080 --host=0.0.0.0 --livereload --verbose --trace --force_polling --destination "$DOCKER_DESTINATION" --config "$CONFIG_FILE" &
+    # Keep automatic builds, but avoid the LiveReload parser crash in this container.
+    bundle exec jekyll serve --watch --port=8080 --host=0.0.0.0 --verbose --trace --force_polling --destination "$DOCKER_DESTINATION" --config "$CONFIG_FILE" &
 }
 
 start_jekyll

@@ -1,43 +1,33 @@
-<style>
-  .news {
-      max-height: 600px;
-      overflow-x: hidden;
-      overflow-y: auto;
-  }
-  tr, th, td{
-    background-color: #F2F2F2;
-    border-top: 6px solid #FFFFFF;
-    border-bottom: 6px solid #FFFFFF;
-  }
-
-</style>
-
-          <div class="news">
-            {% if site.news != blank -%}
-            {%- assign news_size = site.news | size -%}
-            <div class="table-responsive" {% if site.announcements.scrollable and news_size > 3 %}style="max-height: 120vw" {% endif %}>
-              <table class="table table-sm table-borderless">
-              {%- assign news = site.news | reverse -%}
-              {% if site.announcements.limit %}
-              {% assign news_limit = site.announcements.limit %}
-              {% else %}
-              {% assign news_limit = news_size %}
-              {% endif %}
-              {% for item in news limit: news_limit %}
-                <tr class="news-table">
-                  <th scope="row" style="width: 20%">{{ item.date | date: "%b %-d, %Y" }}</th>
-                  <td>
-                    {% if item.inline -%}
-                      {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
-                    {%- else -%}
-                      <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
-                    {%- endif %}
-                  </td>
-                </tr>
-              {%- endfor %}
-              </table>
-            </div>
-          {%- else -%}
-            <p>No news so far...</p>
-          {%- endif %}
+{% if site.news != blank %}
+  {% assign news = site.news | sort: 'date' | reverse %}
+  {% assign news_limit = site.announcements.limit | default: news.size %}
+  <div
+    class="updates-feed{% if site.announcements.scrollable and news.size > 3 %} updates-feed--scrollable{% endif %}"
+    role="region"
+    aria-label="News"
+    {% if site.announcements.scrollable and news.size > 3 %}
+      tabindex="0"
+    {% endif %}
+  >
+    <ul class="updates-list">
+      {% for item in news limit: news_limit %}
+        <li class="update-card">
+          <time class="update-date" datetime="{{ item.date | date: '%Y-%m-%d' }}">
+            <span class="update-date__day">{{ item.date | date: '%-d' }}</span>
+            <span class="update-date__month">{{ item.date | date: '%b' }}</span>
+            <span class="update-date__year">{{ item.date | date: '%Y' }}</span>
+          </time>
+          <div class="update-content">
+            {% if item.inline %}
+              {{ item.content | emojify }}
+            {% else %}
+              <a class="update-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+            {% endif %}
           </div>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+{% else %}
+  <p>No news so far...</p>
+{% endif %}
