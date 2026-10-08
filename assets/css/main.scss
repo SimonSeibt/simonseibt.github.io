@@ -210,7 +210,7 @@ blockquote {
   color: inherit;
 }
 
-.update-content font[color="#00369f"] {
+.update-content font > b {
   color: var(--global-theme-color);
 }
 
