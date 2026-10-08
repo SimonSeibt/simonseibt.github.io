@@ -210,6 +210,10 @@ blockquote {
   color: inherit;
 }
 
+.update-content font[color="#00369f"] {
+  color: var(--global-theme-color);
+}
+
 .update-content a,
 .update-title {
   color: var(--global-theme-color);
@@ -218,6 +222,10 @@ blockquote {
 .update-title {
   font-weight: 600;
   line-height: 1.5;
+}
+
+.updates-feed--posts .update-title {
+  font-weight: 400;
 }
 
 .update-card--link {
@@ -342,7 +350,7 @@ html[data-theme="dark"] .updates-feed {
   margin: 0 0 0.35rem;
 }
 .teaching-school h3 {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-weight: 600;
   margin: 0 0 0.45rem;
 }

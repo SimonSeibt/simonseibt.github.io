@@ -4,6 +4,8 @@ permalink: /impressum/
 title: Impressum
 description: 
 nav: false
+noindex: true
+sitemap: false
 nav_order: 9
 ---
 
@@ -12,11 +14,12 @@ nav_order: 9
 **Anschrift/ Inhaltlich verantwortlich:**
 
 Dr. Simon Seibt<br>
-Nuremberg Metropolitan Region, Germany<br>
+Jahnstrasse 17<br>
+90513 Zirndorf <br>
 
 **Kontakt:**
 
-Email: simon.seibt [at] ieee.org<br>
+Email: me [at] simonseibt.org<br>
 
 **Haftungshinweis:**
 
