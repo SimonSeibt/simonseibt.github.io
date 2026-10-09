@@ -7,4 +7,4 @@ related_posts: false
 ---
 
 <font color="#00369f"><b>Life Update</b></font><br><br>
-I am excited to share that I have joined adidas as a Senior Solution Architect within Brand and Creation Technologies. I look forward to driving the future of visual content creation alongside a great team.
+I am excited to share that I have joined adidas as a Senior Solution Architect within Brand and Creation Technologies. I look forward to driving the future of visual content creation alongside a great team!
