@@ -1,7 +1,7 @@
 ---
 ---
 <!-- _layouts/bib.html -->
-      <div class="row">
+      <div class="row publication-entry">
         <div class="col-sm-2 {% if entry.preview %}preview{% else %}abbr{% endif %}">
         {%- if entry.preview -%}
           {% if entry.preview contains '://' -%}
@@ -30,7 +30,14 @@
         <!-- Entry bib key -->
         <div id="{{entry.key}}" class="col-sm-8">
         <!-- Title -->
-        <div class="title"><a href="{{entry.blog}}">{{entry.title}}</a></div>
+        {% assign publication_blog = entry.blog | default: '' | strip %}
+        <div class="title">
+          {% if publication_blog != '' %}
+            <a href="{{ publication_blog | relative_url }}">{{ entry.title }}</a>
+          {% else %}
+            {{ entry.title }}
+          {% endif %}
+        </div>
         <!-- Author -->
         <div class="author">
         {% assign author_array_size = entry.author_array | size %}
@@ -59,16 +66,16 @@
           {%- endif -%}
 
           {%- if forloop.length > 1 -%}
-            {%- if forloop.first == false -%},&nbsp;{%- endif -%}
+            {%- if forloop.first == false -%}{{ ' ' }}{%- endif -%}
             {%- if forloop.last and author_array_limit == author_array_size -%}and&nbsp;{%- endif -%}
           {%- endif -%}
           {%- if author_is_self -%}
-            <em>{{author.first}} {{author.last}}</em>
+            <em class="publication-author">{{author.first}} {{author.last}}{% unless forloop.last %},{% endunless %}</em>
           {%- else -%}
             {%- if coauthor_url -%}
-              <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
+              <a class="publication-author" href="{{coauthor_url}}">{{author.first}} {{author.last}}{% unless forloop.last %},{% endunless %}</a>
             {%- else -%}
-              {{author.first}} {{author.last}}
+              <span class="publication-author">{{author.first}} {{author.last}}{% unless forloop.last %},{% endunless %}</span>
             {%- endif -%}
           {%- endif -%}
         {%- endfor -%}

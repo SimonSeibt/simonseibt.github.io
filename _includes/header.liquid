@@ -24,20 +24,17 @@
         <!-- Social Icons -->
         <div class="navbar-brand social">{% social_links %}</div>
       {% endif %}
-      <!-- Navbar Toggle -->
-      <button
-        class="navbar-toggler collapsed navbar-toggler-main"
-        type="button"
-        data-nav-toggle="navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar top-bar"></span>
-        <span class="icon-bar middle-bar"></span>
-        <span class="icon-bar bottom-bar"></span>
-      </button>
+      <div class="mobile-nav-icons" aria-label="Main pages">
+        <a class="mobile-nav-link{% if page.url == '/' %} active{% endif %}" href="{{ '/' | relative_url }}" aria-label="Home" title="Home"{% if page.url == '/' %} aria-current="page"{% endif %}>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m3 10 9-7 9 7M5 9v12h5v-7h4v7h5V9"/></svg>
+        </a>
+        <a class="mobile-nav-link{% if page.url contains '/publications/' %} active{% endif %}" href="{{ '/publications/' | relative_url }}" aria-label="Publications" title="Publications"{% if page.url contains '/publications/' %} aria-current="page"{% endif %}>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h8l4 4v14H6zM14 3v5h4M9 12h6M9 16h6"/></svg>
+        </a>
+        <a class="mobile-nav-link{% if page.url contains '/teaching/' %} active{% endif %}" href="{{ '/teaching/' | relative_url }}" aria-label="Teaching" title="Teaching"{% if page.url contains '/teaching/' %} aria-current="page"{% endif %}>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m2 9 10-5 10 5-10 5zM6 11v6c4 3 8 3 12 0v-6M22 9v7"/></svg>
+        </a>
+      </div>
 
       <div class="collapse navbar-collapse navbar-collapse-main" id="navbarNav">
         <ul class="navbar-nav navbar-menu-list flex-nowrap">
