@@ -237,22 +237,27 @@
     {% endcase %}
   {% endfor %}
 
+  {% assign person_id = '/#person' | absolute_url %}
+  {% assign schema_description = page.description | default: site.description %}
+  {% assign schema_headline = page.title | default: author_name %}
   <script type="application/ld+json">
     {
-        "author":
-        {
-            "@type": "Person",
-            "name": "{{ author_name }}"
-        },
-        "url": "{{ page.url | prepend: site.baseurl | prepend: site.url }}",
-        "@type": "{% if is_blog_post %}BlogPosting{% else %}WebSite{% endif %}",
-        "description": "{% if page.description %}{{ page.description }}{% else if site.description %}{{ site.description }}{% endif %}",
-        "headline": "{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}",
-        {% if sameaslinks != blank %}
-        "sameAs": {{ sameaslinks | jsonify }},
-        {% endif %}
-        "name": "{{ author_name }}",
-        "@context": "https://schema.org"
+      "@context": "https://schema.org",
+      "@type": "{% if is_blog_post %}BlogPosting{% else %}WebSite{% endif %}",
+      "url": {{ page.url | absolute_url | jsonify }},
+      "description": {{ schema_description | jsonify }},
+      "headline": {{ schema_headline | jsonify }},
+      "name": {{ author_name | strip | jsonify }},
+      {% if page.url == '/' %}
+      "mainEntity": { "@id": {{ person_id | jsonify }} },
+      {% endif %}
+      "author": {
+        "@type": "Person",
+        "@id": {{ person_id | jsonify }},
+        "name": {{ author_name | strip | jsonify }},
+        "url": {{ '/' | absolute_url | jsonify }}{% if sameaslinks != empty %},
+        "sameAs": {{ sameaslinks | jsonify }}{% endif %}
+      }
     }
   </script>
 {% endif %}
