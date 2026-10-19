@@ -657,3 +657,15 @@ html[data-theme="dark"] .teaching-overview {
     gap: 0.75rem;
   }
 }
+
+// Keep the footer in the document flow on desktop and mobile.
+footer.sticky-bottom {
+  position: static;
+  background-color: var(--global-footer-bg-color);
+  padding: 9px 0 8px;
+  font-size: 0.75rem;
+
+  a {
+    color: var(--global-footer-link-color);
+  }
+}
